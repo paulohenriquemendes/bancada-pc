@@ -1,0 +1,667 @@
+{
+  "checks": [
+    {
+      "label": "Ajuda e regras",
+      "pass": true
+    },
+    {
+      "label": "Monitor sem energia",
+      "pass": true
+    },
+    {
+      "label": "Inspeção do gabinete",
+      "pass": true
+    },
+    {
+      "label": "Fonte defeituosa impede ligar antes do diagnóstico",
+      "pass": true
+    },
+    {
+      "label": "Bloqueio sem pistas",
+      "pass": true
+    },
+    {
+      "label": "Bloqueio com apenas uma pista",
+      "pass": true
+    },
+    {
+      "label": "Pista repetida não duplica",
+      "pass": true
+    },
+    {
+      "label": "Formulário exige resposta",
+      "pass": true
+    },
+    {
+      "label": "Erro desconta 150",
+      "pass": true
+    },
+    {
+      "label": "Fonte defeituosa continua sem ligar após diagnóstico antes do reparo",
+      "pass": false
+    },
+    {
+      "label": "Reparo hardware bloqueado com energia",
+      "pass": true
+    },
+    {
+      "label": "Uma dica e um erro = 750, dica repetida gratuita",
+      "pass": true
+    },
+    {
+      "label": "Energia bloqueada após conclusão",
+      "pass": true
+    },
+    {
+      "label": "Dica bloqueada após conclusão",
+      "pass": true
+    },
+    {
+      "label": "Reabrir resultado não soma pontos",
+      "pass": true
+    },
+    {
+      "label": "Caso 2 pista 1 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 2 teste 2: energia inválida bloqueada",
+      "pass": true
+    },
+    {
+      "label": "Caso 2 pista 2 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 2 teste 3: energia inválida bloqueada",
+      "pass": true
+    },
+    {
+      "label": "Caso 2 pista 3 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 2: três evidências",
+      "pass": true
+    },
+    {
+      "label": "Caso 2: reparo bloqueado em energia inválida",
+      "pass": true
+    },
+    {
+      "label": "Caso 2: concluído 1000 pontos",
+      "pass": true
+    },
+    {
+      "label": "Caso 3 teste 1: energia inválida bloqueada",
+      "pass": true
+    },
+    {
+      "label": "Caso 3 pista 1 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 3 teste 2: energia inválida bloqueada",
+      "pass": true
+    },
+    {
+      "label": "Caso 3 pista 2 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 3 teste 3: energia inválida bloqueada",
+      "pass": true
+    },
+    {
+      "label": "Caso 3 pista 3 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 3: três evidências",
+      "pass": true
+    },
+    {
+      "label": "Caso 3: reparo bloqueado em energia inválida",
+      "pass": true
+    },
+    {
+      "label": "Caso 3: concluído 1000 pontos",
+      "pass": true
+    },
+    {
+      "label": "Caso 4 teste 1: energia inválida bloqueada",
+      "pass": true
+    },
+    {
+      "label": "Caso 4 pista 1 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 4 teste 2: energia inválida bloqueada",
+      "pass": true
+    },
+    {
+      "label": "Caso 4 pista 2 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 4 teste 3: energia inválida bloqueada",
+      "pass": true
+    },
+    {
+      "label": "Caso 4 pista 3 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 4: três evidências",
+      "pass": true
+    },
+    {
+      "label": "Caso 4: reparo bloqueado em energia inválida",
+      "pass": true
+    },
+    {
+      "label": "Caso 4: concluído 1000 pontos",
+      "pass": true
+    },
+    {
+      "label": "Caso 5 teste 1: energia inválida bloqueada",
+      "pass": true
+    },
+    {
+      "label": "Caso 5 pista 1 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 5 teste 2: energia inválida bloqueada",
+      "pass": true
+    },
+    {
+      "label": "Caso 5 pista 2 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 5 teste 3: energia inválida bloqueada",
+      "pass": true
+    },
+    {
+      "label": "Caso 5 pista 3 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 5: três evidências",
+      "pass": true
+    },
+    {
+      "label": "Caso 5: reparo bloqueado em energia inválida",
+      "pass": true
+    },
+    {
+      "label": "Caso 5: concluído 1000 pontos",
+      "pass": true
+    },
+    {
+      "label": "Caso 6 pista 1 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 6 teste 2: energia inválida bloqueada",
+      "pass": true
+    },
+    {
+      "label": "Caso 6 pista 2 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 6 teste 3: energia inválida bloqueada",
+      "pass": true
+    },
+    {
+      "label": "Caso 6 pista 3 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 6: três evidências",
+      "pass": true
+    },
+    {
+      "label": "Caso 6: reparo bloqueado em energia inválida",
+      "pass": true
+    },
+    {
+      "label": "Caso 6: concluído 1000 pontos",
+      "pass": true
+    },
+    {
+      "label": "Caso 7 teste 1: energia inválida bloqueada",
+      "pass": true
+    },
+    {
+      "label": "Caso 7 pista 1 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 7 teste 2: energia inválida bloqueada",
+      "pass": true
+    },
+    {
+      "label": "Caso 7 pista 2 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 7 teste 3: energia inválida bloqueada",
+      "pass": true
+    },
+    {
+      "label": "Caso 7 pista 3 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 7: três evidências",
+      "pass": true
+    },
+    {
+      "label": "Caso 7: reparo bloqueado em energia inválida",
+      "pass": true
+    },
+    {
+      "label": "Caso 7: concluído 1000 pontos",
+      "pass": true
+    },
+    {
+      "label": "Caso 8 pista 1 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 8 teste 2: energia inválida bloqueada",
+      "pass": true
+    },
+    {
+      "label": "Caso 8 pista 2 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 8 teste 3: energia inválida bloqueada",
+      "pass": true
+    },
+    {
+      "label": "Caso 8 pista 3 coletada",
+      "pass": true
+    },
+    {
+      "label": "Caso 8: três evidências",
+      "pass": true
+    },
+    {
+      "label": "Caso 8: reparo bloqueado em energia inválida",
+      "pass": true
+    },
+    {
+      "label": "Caso 8: concluído 1000 pontos",
+      "pass": true
+    },
+    {
+      "label": "Conclusão dos oito desafios",
+      "pass": true
+    },
+    {
+      "label": "Total correto dos oito casos",
+      "pass": true
+    },
+    {
+      "label": "Melhores pontuações persistem após recarregar",
+      "pass": true
+    },
+    {
+      "label": "Guia acessível",
+      "pass": true
+    },
+    {
+      "label": "Retorno do guia à bancada",
+      "pass": true
+    },
+    {
+      "label": "Catálogo com oito casos",
+      "pass": true
+    },
+    {
+      "label": "Repetição melhora pontuação sem duplicar total",
+      "pass": true
+    },
+    {
+      "label": "Investigação em andamento sobrevive a recarga",
+      "pass": false
+    },
+    {
+      "label": "CORRIGIDO: pistas persistem após recarga",
+      "pass": true
+    },
+    {
+      "label": "Erros persistem após recarga",
+      "pass": true
+    },
+    {
+      "label": "Diagnóstico correto persiste antes do reparo",
+      "pass": true
+    },
+    {
+      "label": "Energia persiste após recarga",
+      "pass": true
+    },
+    {
+      "label": "Dica e erro persistem e descontam após recarga",
+      "pass": true
+    },
+    {
+      "label": "Repetição pior não reduz recorde",
+      "pass": true
+    },
+    {
+      "label": "CORRIGIDO: fonte continua sem ligar após diagnóstico",
+      "pass": true
+    },
+    {
+      "label": "Fonte permanece desligada até reparo",
+      "pass": true
+    },
+    {
+      "label": "Conclusão persiste após recarga",
+      "pass": true
+    },
+    {
+      "label": "Catálogo oferece retomar tentativa",
+      "pass": true
+    },
+    {
+      "label": "Navegar e reabrir não apaga pistas",
+      "pass": true
+    },
+    {
+      "label": "Escape fecha diálogo",
+      "pass": true
+    },
+    {
+      "label": "Sem rolagem horizontal: 375px lab",
+      "pass": true
+    },
+    {
+      "label": "Sem rolagem horizontal: 375px missions",
+      "pass": true
+    },
+    {
+      "label": "Sem rolagem horizontal: 375px progress",
+      "pass": true
+    },
+    {
+      "label": "Sem rolagem horizontal: 375px guide",
+      "pass": true
+    },
+    {
+      "label": "Sem rolagem horizontal: 768px lab",
+      "pass": true
+    },
+    {
+      "label": "Sem rolagem horizontal: 768px missions",
+      "pass": true
+    },
+    {
+      "label": "Sem rolagem horizontal: 768px progress",
+      "pass": true
+    },
+    {
+      "label": "Sem rolagem horizontal: 768px guide",
+      "pass": true
+    },
+    {
+      "label": "Sem rolagem horizontal: 1440px lab",
+      "pass": true
+    },
+    {
+      "label": "Sem rolagem horizontal: 1440px missions",
+      "pass": true
+    },
+    {
+      "label": "Sem rolagem horizontal: 1440px progress",
+      "pass": true
+    },
+    {
+      "label": "Sem rolagem horizontal: 1440px guide",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 1: hipótese 2 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 1: hipótese 3 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 1: hipótese 4 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 1: três erros + uma dica = 450",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 1: recordes preservados",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 2: hipótese 1 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 2: hipótese 3 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 2: hipótese 4 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 2: três erros + uma dica = 450",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 2: recordes preservados",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 3: hipótese 1 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 3: hipótese 2 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 3: hipótese 4 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 3: três erros + uma dica = 450",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 3: recordes preservados",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 4: hipótese 2 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 4: hipótese 3 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 4: hipótese 4 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 4: três erros + uma dica = 450",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 4: recordes preservados",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 5: hipótese 1 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 5: hipótese 3 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 5: hipótese 4 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 5: três erros + uma dica = 450",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 5: recordes preservados",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 6: hipótese 1 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 6: hipótese 2 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 6: hipótese 4 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 6: três erros + uma dica = 450",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 6: recordes preservados",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 7: hipótese 2 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 7: hipótese 3 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 7: hipótese 4 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 7: três erros + uma dica = 450",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 7: recordes preservados",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 8: hipótese 1 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 8: hipótese 2 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 8: hipótese 3 descartada",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 8: três erros + uma dica = 450",
+      "pass": true
+    },
+    {
+      "label": "Regressão caso 8: recordes preservados",
+      "pass": true
+    }
+  ],
+  "layoutResults": [
+    {
+      "width": 375,
+      "section": "lab",
+      "content": 360,
+      "viewport": 360
+    },
+    {
+      "width": 375,
+      "section": "missions",
+      "content": 360,
+      "viewport": 360
+    },
+    {
+      "width": 375,
+      "section": "progress",
+      "content": 360,
+      "viewport": 360
+    },
+    {
+      "width": 375,
+      "section": "guide",
+      "content": 360,
+      "viewport": 360
+    },
+    {
+      "width": 768,
+      "section": "lab",
+      "content": 753,
+      "viewport": 753
+    },
+    {
+      "width": 768,
+      "section": "missions",
+      "content": 753,
+      "viewport": 753
+    },
+    {
+      "width": 768,
+      "section": "progress",
+      "content": 753,
+      "viewport": 753
+    },
+    {
+      "width": 768,
+      "section": "guide",
+      "content": 753,
+      "viewport": 753
+    },
+    {
+      "width": 1440,
+      "section": "lab",
+      "content": 1425,
+      "viewport": 1425
+    },
+    {
+      "width": 1440,
+      "section": "missions",
+      "content": 1425,
+      "viewport": 1425
+    },
+    {
+      "width": 1440,
+      "section": "progress",
+      "content": 1425,
+      "viewport": 1425
+    },
+    {
+      "width": 1440,
+      "section": "guide",
+      "content": 1425,
+      "viewport": 1425
+    }
+  ],
+  "note": "As duas falhas iniciais foram corrigidas e retestadas nos checks CORRIGIDO."
+}

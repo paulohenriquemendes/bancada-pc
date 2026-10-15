@@ -4,7 +4,11 @@ Jogo educativo em português, sem dependências de execução, com oito casos de
 
 ## Mecânica
 
-Investigar ao menos duas pistas, identificar a causa e aplicar o reparo no estado de energia apropriado. Casos começam com 1.000 pontos; erros descontam 150, a primeira dica desconta 100. A melhor pontuação de cada caso fica no localStorage. O relatório pode ser baixado em texto. Não há backend de alunos.
+Investigar ao menos duas pistas, identificar a causa e aplicar o reparo no estado de energia apropriado. Casos começam com 1.000 pontos; erros descontam 150, a primeira dica desconta 100. As melhores pontuações e as investigações em andamento ficam no localStorage, incluindo pistas, dicas, erros e estado de energia. Selecionar um caso em andamento retoma a tentativa; selecionar um caso concluído inicia uma nova prática sem apagar o recorde. O relatório pode ser baixado em texto. Não há backend de alunos.
+
+## Testes
+
+Execute `node --test tests/progress.test.cjs` para os testes automatizados de recuperação de progresso. A rodada funcional no navegador está documentada em `tests/RELATORIO.md`, com verificações detalhadas em `tests/browser-results.json` e captura de tela em `tests/progresso-testado.png`.
 
 ## Referência
 
