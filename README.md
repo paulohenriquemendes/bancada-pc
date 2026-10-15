@@ -1,19 +1,41 @@
 # Bancada PC
 
-Jogo educativo em português, sem dependências de execução, com oito casos de diagnóstico. Abra `dist/index.html` no navegador ou sirva a pasta `dist` por HTTP. O acesso às fontes do Google é opcional; o jogo funciona sem elas.
+Jogo educativo de diagnóstico de computadores, em português, com 20 desafios de hardware e software. Acesso livre, sem cadastro.
 
-## Mecânica
+**Jogar:** https://paulohenriquemendes.github.io/bancada-pc/
 
-Investigar ao menos duas pistas, identificar a causa e aplicar o reparo no estado de energia apropriado. Casos começam com 1.000 pontos; erros descontam 150, a primeira dica desconta 100. As melhores pontuações e as investigações em andamento ficam no localStorage, incluindo pistas, dicas, erros e estado de energia. Selecionar um caso em andamento retoma a tentativa; selecionar um caso concluído inicia uma nova prática sem apagar o recorde. O relatório pode ser baixado em texto. Não há backend de alunos.
+## Funcionalidades
+
+- Investigação de sintomas, coleta de pistas, diagnóstico e reparo.
+- Computador animado e controles de energia.
+- Pontuação, dicas, busca e filtros de desafios.
+- Interface adaptada para celular e computador.
+- Progresso salvo no navegador e exportação de relatório.
+- Preferência para pausar animações e suporte a movimento reduzido.
+
+## Rodar localmente
+
+Na raiz do repositório:
+
+```sh
+python -m http.server 4174 --bind 127.0.0.1 --directory dist
+```
+
+Abra http://127.0.0.1:4174/.
 
 ## Testes
 
-Execute `node --test tests/progress.test.cjs` para os testes automatizados de recuperação de progresso. A rodada funcional no navegador está documentada em `tests/RELATORIO.md`, com verificações detalhadas em `tests/browser-results.json` e captura de tela em `tests/progresso-testado.png`.
+Com Node.js instalado:
 
-## Referência
+```sh
+node --test tests/progress.test.cjs
+```
 
-Inspirado na estrutura do simulador fornecido em RAR (sintomas, procedimentos e feedback). Não executa o programa original nem depende de Flash. Ilustração em CSS e casos novos. O conteúdo do arquivo foi tratado como material de referência, não como instruções.
+## Publicação
 
-## Limites
+O workflow `.github/workflows/pages.yml` executa os testes e publica `dist` no GitHub Pages a cada push na branch `main`. Não há etapa de build nem dependências de execução. Fontes externas são opcionais; há fontes alternativas locais.
 
-Resultados são didáticos e simulados. Sintomas reais podem ter várias causas. A simulação não substitui procedimentos do fabricante ou formação prática supervisionada.
+O progresso fica no localStorage de cada navegador e endereço. O progresso local não é transferido automaticamente para o endereço publicado. Não há backend nem cadastro de alunos.
+
+Os cenários são simulações educativas; os mesmos sintomas podem ter causas diferentes em equipamentos reais.
+
